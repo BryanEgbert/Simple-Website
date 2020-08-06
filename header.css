@@ -1,0 +1,29 @@
+header {
+    background-color: rgba(0,0,0,0.3);
+    display: flex;
+    justify-content: space-evenly;
+    position: fixed;
+}
+
+ul {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.nav {
+    width: 100vw;
+    padding: 1em auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav a.active {
+    text-decoration: underline;
+}
+.nav a:hover {
+    color: Lightblue;
+    text-decoration: underline;
+}
