@@ -11,27 +11,35 @@ main {
     justify-content: space-evenly;
     text-align: center;
     height: 100vh;
-    width: 100vw;
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
-                url(./image/pexels-tobias-bjørkli-2113566\ \(1\).jpg);
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
+                url("/image/main.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 h1 {
     font-size: 5rem;
     margin-bottom: 0;
     margin-top: 10rem;
-    font-weight: 100;
+    font-weight: 300;
 }
 .subtitle {
     margin-top: 0;
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 .cta {
     margin-bottom: 4.5rem;
 }
 span.cta1 {
-    background-color: darkcyan;
+    background-color: rgb(30, 168, 214);
     padding: 1rem 1.5rem;
     border: hidden;
     border-radius: 0.5rem;
+}
+span.cta1:hover {
+    background-color: rgb(26, 143, 182);
+}
+span.cta1:focus {
+    transform: scale(1rem,1rem);
 }
