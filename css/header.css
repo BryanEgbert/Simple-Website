@@ -32,7 +32,6 @@ a {
 .nav .sign {
     display: inline-block;
     background-color: rgb(30, 168, 214);
-    opacity: 0.9;
     padding: 0.5rem 1rem;
     border: hidden;
     border-radius: 50px;
@@ -45,9 +44,7 @@ a {
     text-decoration: underline;
 }
 .nav a.sign:hover {
-    background-color: rgb(30, 168, 214);
-    opacity: 1;
-    color: white;
+    background-color: rgb(26, 143, 182);
     text-decoration: none;
 }
 li.sign {
