@@ -38,9 +38,9 @@ h1 {
     font-size: 1.5rem;
 }
 .btn {
-    display: flex;
+    display: inline-block;
     justify-content: center;
-    flex-direction: column;
+    line-height: 3.5em;
 }
 .cta span {
     background-color: rgb(30, 168, 214);
@@ -54,10 +54,9 @@ h1 {
     color: lightblue;
 }
 .scroll {
+    display: inline;
     color: lightblue;
     text-decoration: underline;
-    margin-bottom: 0;
-    margin-top: 2.5rem;
 }
 .scroll:hover {
     color: rgb(145, 185, 199);
