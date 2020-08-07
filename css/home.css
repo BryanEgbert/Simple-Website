@@ -15,31 +15,35 @@ main {
     background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
                 url("/image/main.jpg");
     background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
-
+small {
+    padding-top: rem;
+    font-size: 1em;
+}
 h1 {
     font-size: 5rem;
     margin-bottom: 0;
-    margin-top: 10rem;
-    font-weight: 300;
+    font-weight: 600;
+    padding-top: 0;
+    margin-top: 0;
 }
 .subtitle {
-    margin-top: 0;
+    margin: 0;
     font-size: 1.5rem;
 }
-.cta {
-    margin-bottom: 4.5rem;
-}
-span.cta1 {
+.cta span {
     background-color: rgb(30, 168, 214);
     padding: 1rem 1.5rem;
     border: hidden;
     border-radius: 0.5rem;
+    margin-bottom: 7rem;
 }
-span.cta1:hover {
+.cta span:hover {
     background-color: rgb(26, 143, 182);
+    color: lightblue;
 }
-span.cta1:focus {
-    transform: scale(1rem,1rem);
-}
+
+
